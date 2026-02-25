@@ -43,10 +43,6 @@
 
           ```
  
-
-          
-            
-
       **examples**
       ```
         <html> | <Html> | <HTML>
