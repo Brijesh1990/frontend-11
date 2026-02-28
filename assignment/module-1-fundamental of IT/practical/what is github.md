@@ -28,3 +28,13 @@
     5. git push -u origin master 
 
 
+ **How to clone a git repository on local drive**
+
+   1. open a gitbash on any drive where you want to download 
+   2. write a command 
+
+      ```
+       git clone  https://github.com/Brijesh1990/frontend-11.git
+      ```    
+
+
