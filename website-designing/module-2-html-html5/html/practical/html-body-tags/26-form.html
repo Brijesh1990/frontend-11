@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Page Title</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: aliceblue;    
+}    
+div 
+{
+width: 40%;
+height: auto;
+margin: auto;
+margin-top: 5%;    
+}
+fieldset
+{
+border: solid 5px;    
+border-radius: 10px;
+}
+legend 
+{
+font-size: 48px;
+font-family: cursive;    
+}
+input,textarea
+{
+width: 80%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+padding: 15px;
+border: solid 1px;
+background-color: aliceblue;
+border-radius: 10px;    
+margin-top: 3%;
+}
+select 
+{
+width: 85%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+padding: 15px;
+border: solid 1px;
+background-color: aliceblue;
+border-radius: 10px;    
+margin-top: 3%;  
+}
+input[type="submit"]
+{
+width: 40%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+padding: 20px;
+border: solid 1px;
+background-color: black;
+color: white;
+border-radius: 10px;    
+margin-top: 3%;    
+}
+input[type="reset"]
+{
+ width: 40%;
+height: auto;
+margin: auto;
+margin-left: 5%;
+padding: 20px;
+border: solid 1px;
+background-color: red;
+color: white;
+border-radius: 10px;    
+margin-top: 3%;    
+}
+</style>
+</head>
+<body>
+<div>
+<form method="post" id="frm" name="frm" action="welcome.html">
+<fieldset>
+<legend>contact Form</legend>
+<input type="text" placeholder="Name *" required />
+<br><br>
+<input type="email" placeholder="Email *" required />
+<br><br>
+<input type="number" placeholder="Phone *" required />
+<br><br>
+<input type="date" placeholder="Added date *" required />
+<br><br>
+<select  placeholder="select subject *" required>
+<option value="0">-select subject-</option>
+<option value="1">24x7 customer support</option>
+<option value="1">Return products</option>
+<option value="1">privacy & policy</option>
+</select>
+<br><br>
+<textarea placeholder="comment"></textarea>
+<br><br>
+<input type="submit" value="Send"/>
+<input type="reset" value="Reset"/>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
